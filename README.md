@@ -1,108 +1,165 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<a href="https://ibromurph.github.io/st-lawrence-fc/" title=":ink to St Lawrence Website">LINK TO PROJECT - ST LAWRENCE WEBSITE</a>
 
-Welcome USER_NAME,
+<img src="assets/images/wireframes/responsive-image.png" width="1680px" height="auto">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h1>St Lawrence School of Football - Inspiring Excellence</h1>
+<p>St Lawrence School of Football is an amateur, youth, community football club based in North West London. They are a club that have helped and developed many young talented footballers players, some even going on to play professionally in the football leagues. As a community charity-funded football club, they're always on the lookout for local talent, both on and off the field. That means, to continue their good work, they require players, coaches or volunteers to be able to find them and join the club. They also require a location where existing players, parents and staff can go to find out details of upcoming matches and games.</p>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h2>User Experience</h2>
 
-## Gitpod Reminders
+<h3>The audience</h3>
+<ul>
+<li>Existing players</li>
+<li>Parents of players</li>
+<li>Potential players</li>
+<li>Parent of potential player</li>
+<li>Volunteers</li>
+<li>Existing coaches</li>
+<li>Potential coaches</li>
+</ul>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+<h3>How does this website meet the needs of the intended audience?</h3>
+<p>The website allows the user to find out information and about the club. It serves both existing and new players, volunteers and coaches; it educatse on the ethos of the club, introduces them to the coaches, allows them to contact the club, and informs them of important upcoming matches/training.</p>
 
-A blue button should appear to click: _Make Public_,
+<h3>User Stories</h3>
+<ol>
+<h4>Existing Players/Parents/Coaches:</h4>
+<li>I want to be able to find out the location of the next match quickly. That means knowing the location, opponent, the kick-off time, the meet-up time and any match footage we might have on the team. </li>
+<li>I want to see be able go know the details and location of upcoming training, especially when we change locations over the winter and summer months </li>
+</ol>
+<ol>
+<h4>Existing Players/Parents/Coaches:</h4>
+<li>I want to be able to find out details about the ethos of St Lawrence FC, as potentially I want to join.</li>
+<li>I want to be able to find out details of training times and location</li>
+<li>I want to be able to find out details of the coaching team and their credentials as I want the best type of coaching </li>
+<li>I want to be able to contact the club if I have any queries</li>
+</ol>
+<ol>
+<h4>Volunteers:</h4>
+<li>I want to be able to find out details about the ethos of St Lawrence FC, as potentially I want to join and help out.</li>
+<li>I want to be able to contact the club if I have any queries</li>
+</ol>
 
-Another blue button should appear to click: _Open Browser_.
+<h3>Strategy</h3>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<p>The aim of this website is to provide a simple to use, easy to navigate one-stop-shop for both existing and new potential players, parents, coaches and volunteers. The goal is to inform existing members of crucial weekly details such as training time and location, as well as match. The website also aims to encourage potential new players to sign up, by educating them on the incredible ethos of the club, as well as informing them on the qualified credentials of the coaches, who themselves aim to inspire excellence.</p>
 
-A blue button should appear to click: _Make Public_,
+<h3>Scope</h3>
 
-Another blue button should appear to click: _Open Browser_.
+<p>Users can scroll through the website and find the information that is relevant to them, in an easy, intuitive way. I aim to serve the user in both web and mobile format, as young people are more likely on their phones nowadays. The user can also contact the club should they require more information.</p>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+<h3>Structure</h3>
+<ul>
+<li>Home: The website will be a one page website split into dropdown sections. This was chosen to reduce the cognitive load on the users and make the site easy to navigate.</li>
+<li>Next match section: Details about the upcoming fixture. Put at the top for the benefit of existing players/parents, as that's likely going to be the .</li>
+<li>About us section: Informs potential parents, coaches, volunters and players about the club ethos</li>
+<li>The team section: Details the coaching/management team and their role/credentials/qualifications</li>
+<li>Join us section: Informs potential players of training locations and times</li>
+<li>Contact us: If parents, volunteers or players have queries, they can reach out to the team here</li>
+</ul>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<h2>Skeleton</h2>
+<h3>Wireframes</h3>
+<p>I created wireframes using Balsqmiz for both web and mobile formation:<br><br>
+<a href="assets/images/wireframes/Desktop UI.png">Web format</a><br>
+<a href="assets/images/wireframes/Mobile UI.png">Mobile format</a>
+</p>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<h2>Surface</h2>
+<p>In order to highlight Join as the main focus/goal, I'll put that on a banner at the top, although this can always change, according to whatever the main goal is for that month. It could aslo act as a news carousel.<br><br>
 
-------
+<b>Colour Scheme</b><br><br>
+The colour scheme will be St Lawrence specifice. It makes sense to go with the club's playing colours. That being yellowy-gold, black and white (from the logo). I used a colour picker to get the hex codes for these.
 
-## Release History
+<b>Typograhy</b><br><br>
+The main font used is a sans-serif font 'Lato' with an alternative/backup as sans-serif, if it is not accessible. This font is clear, clean, modern and inspirational, which is in-keeping with the motto of St Lawrence FC.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<b>Imagery</b><br><br>
+Images on this website are responsive, and doesn't suffer from interference from the backgound.
+</p>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<h1>Technologies Used</h1>
+<b>Languages Used</b>
+<ul><li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+</ul>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<b>Frameworks, Libraries & Programs Used</b>
+<ol>
+<li>Balsamiq: Used to create the wireframes<</li>
+<li>Google Fonts.</li>
+<li>Bootstrap: Used for custom components such as navigation bar, grids, carousels and cards</li>
+<li>Font Awesome: Used to add social icons</li>
+<li>JQuery: Used in some components that can click and collapse such as nav bar a</li>
+<li>>popper.js: Used in some components that can click and collapse such as nav bar </li>
+<li>Git: Git was used for the ability to track changes and for version control</li>
+<li>GitPod: GitPod, which is connected to GitHub, hosted the coding space and allowed the project to be committed to the GitHub repository</li>
+<li>Github: Used to host the project files and publish the live website with Git Pages</li>
+</ol>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<h1>Testing</h1>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<table>
+  <tr>
+    <th>Screen size</th>
+    <th>Chrome </th>
+    <th>Brave</th>
+      <th>Firefox</th>
+  </tr>
+  <tr>
+    <td>Mobile</td>
+    <td>Tick</td>
+    <td>Tick</td>
+      <td>Not tested</td>
+  </tr>
+  <tr>
+    <td>Desktop</td>
+    <td>Tick</td>
+    <td>Tick</td>
+      <td>Tick</td>
+  </tr>
+  <tr>
+    <td>Tablet</td>
+    <td>Not tested</td>
+    <td>Not tested</td>
+      <td>Not tested</td>
+  </tr>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+</table>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<p>I tested in 2  different browsers and across multiple breakpoints to ensure responsiveness. I also used googletools inspect and check it worked well across all devices on there.<br><br>
+I checked and tested the Sign up form, the hover over states, the click through, the accessibility, the aria labels. I ensured that the form had the correct fields attributed to it (can't submit invalid email, etc).
+<br>
+I tested on: 
+OS Compatibility - Windows 7 & 10, Android 10.0 and MacOS Big Sur v11.2.3. It has not as yet been tested on other Operating Systems.
+<br><br>
+Devices - The devices used in testing include an Oppo X2 Lite, Samsung 10, Asus x555l
+<br><br>
+Chrome DevTools - This website was thoroughly tests for responsiveness on Chrome DevTools. Viewport sizes from small (e.g. iPhone5), to large (Desktop 1200px and above) were simulated.
+</p>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<h2>Bugs</h2>
+<p>Solved bugs: When I deployed the code to the Github pages, I did notice that the images were quite heavy, so I had to resize and compress them, and reupload them. I also noticed that the St Lawrence navigation title wasn't showing well on the very smallest mobile screen, so I had to resize it for better for that specific breakpoint.</p>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<h2>Validator testing</h2>
+<p>
+W3C Markup Validator - Home Page - Pass - No errors present<br>
+W3C CSS3 validator - Pass - No errors present<br>
+Accessibilty - I can confirm the colours and fonts worked well and was easy to read by running through it in Lighthouse (in devtools). The only thing that may be an issue is the Perfrmance of the website due to the JS files loaded. <a href="assets/images/wireframes/lighthouse.png">Results shown here</a><br>
+<b>Unfixed bugs</b><br>
+All are largely related to performance issues. If I had more time, I'd more likely looks to reolsve those.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<h2>Credits</h2>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<b>Code</b><br>
+Bootstrap library was used to for the navbar, image carousel, form, grids and card components. It was also used for the grid layout and responsive design. I also used the guidelines and sample structure from the Love Running project from the Code Institute.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+</p>
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

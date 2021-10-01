@@ -1,0 +1,547 @@
+/*------------ FONTS ------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&family=Raleway:wght@900&display=swap');
+/*------------ Lato/Oswald/Raleway fonts ------------*/
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*------------ GENERAL------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+/*------------ BODY ------------*/
+
+
+body {
+	font-weight: 20;
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*------------ LOGO ------------*/
+img.logo {
+	width: 60px;
+}
+
+
+/*------------ HEADER / NAVIGATION LINKS------------*/
+.bg-dark {
+	background-color: #000000 !important;
+}
+
+#siteheader {
+	font-weight: bold;
+	color: #ffd200;
+	text-transform: uppercase;
+}
+
+#tagline {
+	letter-spacing: 2px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	transition: 0.3s;
+	text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	background: #ffd200;
+	color: #000;
+}
+
+#nav-style-collapse {
+	margin: 0px auto;
+}
+
+
+/*------------ BANNER SECTION------------*/
+
+.banner {
+	width: 100%;
+	height: auto;
+	float: left;
+	background: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 250px 0px 200px 0px;
+	background-color: #000000;
+}
+
+.banner h1 {
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.banner p {
+	text-align: center;
+	color: #fff;
+}
+
+#primary-button {
+	background-color: #ffd200;
+	border: none;
+	border-radius: 12px;
+	color: #000000;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.center-btn {
+	padding-top: 20px;
+	text-align: center;
+}
+
+#teaser-hero-copy {
+	margin: 0px 50px;
+}
+
+/*=====NEXT MATCH SECTION CSS =====*/
+.next-match {
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #fff;
+	padding: 100px 0px 100px 0px;
+}
+
+.next-match h2 {
+	text-align: left;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.next-match h3 {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.next-match .teams {
+	text-align: center;
+	font-weight: bold;
+	background: #000;
+	color: #fff;
+	padding: 5px 3px 7px 3px;
+	border-radius: 12px;
+}
+
+.match-time {
+	width: 100%;
+	float: left;
+	height: auto;
+	margin-top: 20px;
+	padding: 20px 20px 20px 20px;
+	border: 1px solid #000;
+}
+
+.match-time p {
+	margin: 0px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.next-match iframe {
+	margin-top: 50px;
+	width: 100%;
+	height: 400px;
+}
+
+section.next-match {
+	background-color: #fff;
+}
+
+#home-or-away {
+	text-transform: uppercase;
+}
+
+#versus {
+	padding: 0px;
+}
+
+#get-directions {
+	color:black;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+/*=====ABOUT US SECTION CSS =====*/
+
+.about-us {
+	width: 100%;
+	height: auto;
+	float: left;
+	background: black;
+	padding: 100px 0px 100px 0px;
+	color: #ffd200;
+}
+
+.about-us h2 {
+	text-align: left;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.card {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	min-height: 200px;
+	color: #000;
+	border-radius: 12px;
+}
+
+#about-us .col-md-3 {
+	padding: 10px;
+}
+
+.card h3 {
+	text-align: center;
+
+}
+
+.card-title {
+	font-weight: bold;
+	background-color: #ffd200;
+	border-radius: 12px;
+
+}
+
+/*=====THE TEAM SECTION CSS =====*/
+.our-team {
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #fff;
+	padding: 100px 0px 100px 0px;
+}
+
+.our-team h2 {
+	text-align: left;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.carousel-item {
+	background: #ffd200;
+	height: 400px;
+	padding-top: 60px;
+	border-radius: 5px;
+}
+
+.team-role {
+	background: #000;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #ffd200;
+}
+
+.card-img-top {
+	
+}
+
+.carousel-caption p {
+	background: #000;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+
+.team-member {
+	width: 220px;
+	height: 220px;
+	background: #fff;
+	margin: 0px auto;
+	border-radius: 100%;
+}
+
+.team-member img {
+	width: 100%;
+	border-radius: 100%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	background-color: #000;
+}
+
+/*=====JOIN US SECTION CSS =====*/
+.join-us {
+	width: 100%;
+	height: auto;
+	float: left;
+	background: black;
+	padding: 100px 0px 100px 0px;
+	color: #ffd200;
+}
+
+.join-us h2 {
+	text-align: left;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#training-time {
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.gmap {
+	padding-left: 50px;
+}
+
+td,
+th {
+	border: 4px solid #e9e9e9;
+	text-align: left;
+	padding: 8px;
+}
+
+.join-us iframe {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+/*=====CONTACT US SECTION CSS =====*/
+
+.contact-us {
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #fff;
+	padding: 100px 0px 100px 0px;
+}
+
+.contact-us h2 {
+	text-align: left;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.form-control {
+	margin-bottom: 20px;
+	background: #f8f8f8;
+}
+
+
+.mandatory {
+	color: red
+}
+
+#info-email {
+	color:rgb(25, 1, 31);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*=====FOOTER SECTIN CSS =====*/
+footer {
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #000;
+	padding: 60px 0px 20px 0px;
+}
+
+footer tr td a {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer tr td a:hover {
+	color: #ffd200;
+}
+
+footer i {
+	font-size: 42px;
+	color: #fff;
+	padding: 0px 10px 0px 10px;
+	transition: 0.3s;
+}
+
+footer i:hover {
+	color: #ffd200;
+}
+
+footer p {
+	text-align: right;
+	color: #d8d8d8;
+	margin-top: 30px;
+}
+
+.footer-logo {
+	width: 70px;
+	float: right;
+}
+
+.pc {
+	display: block;
+}
+
+.phone {
+	display: none;
+	text-align: center;
+}
+
+
+
+/*====LARGE DEVICES=====*/
+@media screen and (min-width: 768px) {
+	.top-fixed {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+
+	.next-match {
+		width: 100%;
+		height: auto;
+		float: left;
+		background: #fff;
+		padding: 100px 0px 100px 0px;
+	}
+}
+
+/*===== Mobile, tab and medium & small device =====*/
+@media screen and (max-width: 768px) {
+
+	#siteheader {
+		font-weight: bold;
+		color: #ffd200;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+
+	.banner {
+		width: 100%;
+		height: auto;
+		float: left;
+		background: url(../images/banner.jpg);
+		background-size: cover;
+		background-position: center;
+		padding: 100px 0px 100px 0px;
+		background-color: #000000;
+		margin-left: 0px;
+	}
+
+	.navbar-brand h1 {
+		font-size: 15px;
+	}
+
+	.navbar-brand p {
+		font-size: 14px;
+	}
+
+	.next-match iframe {
+		margin-top: 40px;
+		width: 100%;
+		height: 250px;
+	}
+
+	.footer-logo {
+		width: 70px;
+		float: none;
+		text-align: center;
+	}
+
+	.footer-logo-box {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	footer p {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.pc {
+		display: none;
+	}
+
+	.phone {
+		display: block;
+		text-align: center;
+	}
+
+	.next-match h2,
+	.about-us h2,
+	.join-us h2,
+	.our-team h2,
+	.contact-us h2 {
+		text-align: center;
+	}
+
+	.section-teaser {
+		text-align: center;
+	}
+
+}
+
+/*===== Back to Top button - Javascript from bbbootstrap.com =====*/
+
+#toTopBtn {
+	position: fixed;
+	bottom: 26px;
+	right: 39px;
+	z-index: 98;
+	padding: 21px;
+	background-color: #ffd200;
+}
+
+.js .cd-top--fade-out {
+	opacity: .5
+}
+
+.js .cd-top--is-visible {
+	visibility: visible;
+	opacity: 1
+}
+
+.js .cd-top {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .5s, visibility .5s, background-color .5s
+}
+
+.cd-top {
+	position: fixed;
+	bottom: 20px;
+	bottom: var(--cd-back-to-top-margin);
+	right: 20px;
+	right: var(--cd-back-to-top-margin);
+	display: inline-block;
+	height: 40px;
+	height: var(--cd-back-to-top-size);
+	width: 40px;
+	width: var(--cd-back-to-top-size);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+	background: url(../images/cd-top-arrow.svg) no-repeat center 50%;
+	background-color: hsla(5, 76%, 62%, .8);
+	background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+
+.height {
+	height: 3000px
+}
